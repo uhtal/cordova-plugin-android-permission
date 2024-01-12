@@ -24,6 +24,10 @@
       </feature>
     </config-file>
 
+    <config-file target="AndroidManifest.xml" parent="/*">
+      <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    </config-file>
+
     <source-file src="src/android/com/android/plugins/Permissions.java" target-dir="src/com/android/plugins"/>
   </platform>
 
